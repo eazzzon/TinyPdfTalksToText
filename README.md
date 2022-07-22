@@ -1,9 +1,9 @@
 # Night talks of Pdf to Text
-have you ever got nightmare from converting tables in old literature pdf files to excel files? Here is the script you can simply convert these nightmare tables to excels with few efforts
+Have you ever got nightmare from converting tables in old literature pdf files to excel files? Yes? Here is a tiny script you can simply convert these nightmare tables to excels with few efforts.
 
 ## Requirements 
 
-1. Python > 3.7
+1. Python > 3.7 (tested with python 3.10 but should work with the latest `tabula` and `tabulate` pkgs)
 2. `tabula` packages, can be installed in conda env via:
 
 ```
@@ -24,3 +24,5 @@ run the modified script in your directory, command line or IDE execution:
 python pdfToTable.py
 ```
 
+A later process with dataframe is possible to split the texts in the columns via `.split()` function in pandas
+Send me [email](yishen.zhang@kuleuven.be) if you ran into any problem.
