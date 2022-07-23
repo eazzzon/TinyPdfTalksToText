@@ -24,5 +24,6 @@ run the modified script in your directory, command line or IDE execution:
 python pdfToTable.py
 ```
 
-A later process with dataframe is possible to split the texts in the columns via `.split()` function in pandas
+A built-in function is provided to convert string to float data
+
 Send me [email](yishen.zhang@kuleuven.be) if you ran into any problem.
