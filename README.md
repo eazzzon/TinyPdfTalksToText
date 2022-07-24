@@ -16,14 +16,18 @@ conda install -c conda-forge tabula-py
 conda install -c conda-forge tabulate
 ```
 
+4. `pandas` and `numpy`
+
 ## How to run?
 
-run the modified script in your directory, command line or IDE execution:
+Run from the example notebook or run the modified script in your directory, with command line or IDE execution:
 
 ```
 python pdfToTable.py
 ```
 
-A built-in function is provided to convert string to float data
+A built-in function is provided to convert string to float data, also extract standard errors in the tabula (if given)
+
+A breif example notebook is given in the example folder. with output files for benchmark, example test pdf can be download from [here](https://www.sciencedirect.com/science/article/pii/S0024493717303948?casa_token=mvW4EmhgSxIAAAAA:NHo12hBnV-pl1ZMfynRm4xNlIxdhe_HQangT1AcQZRco7twgzD9Z3ozIUqkkxky9aiNd7ZdPUz_p) or Zhang et al. 2018 Lithos: 300–301 (2018) 20–32. 
 
 Send me [email](yishen.zhang@kuleuven.be) if you ran into any problem.
