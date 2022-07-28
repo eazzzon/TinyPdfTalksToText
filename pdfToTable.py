@@ -4,7 +4,6 @@ import re
 import numpy as np
 import pandas as pd
 import io, os
-os.chdir(os.getcwd())
 
 def colTofloat(df_col):
     """
